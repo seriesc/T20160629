@@ -26,8 +26,8 @@ if __name__ == '__main__':
               '.NET', 'C#', '数据分析', '数据挖掘', 'hadoop', 'IOS', 'PHP'
     ]
     KeyWords1 = ' '.join(KeyWords2All)
-    run_date = '2016-04-07'
     # run_date=time.strftime("%Y-%m-%d",time.localtime())
+    run_date = '2016-04-07'
 
     for KeyWords2 in KeyWords2All:
         # 1 job_info(去重)
@@ -60,3 +60,5 @@ if __name__ == '__main__':
         print tmpTime+' 关键字2='+KeyWords2+' 已经处理完毕...'
         Cost1Sec = Cost1.Cost()
     test1.CloseDB()  #关闭数据库
+
+
