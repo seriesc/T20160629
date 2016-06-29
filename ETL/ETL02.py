@@ -82,14 +82,14 @@ def string2List(ustring):
             retList.append("".join(utmp))
         return retList
 
-if __name__=="__main__":
-    #test Q2B and B2Q
-    for i in range(0x0020,0x007F):
-        print Q2B(B2Q(unichr(i))),B2Q(unichr(i))
-        #test uniform
-        ustring=u'中国 人名ａ高频Ａ'
-        ustring=uniform(ustring)
-        ret=string2List(ustring)
-        print ret
+# if __name__=="__main__":
+#     #test Q2B and B2Q
+#     for i in range(0x0020,0x007F):
+#         print Q2B(B2Q(unichr(i))),B2Q(unichr(i))
+#         #test uniform
+#         ustring=u'中国 人名ａ高频Ａ'
+#         ustring=uniform(ustring)
+#         ret=string2List(ustring)
+#         print ret
 
 
